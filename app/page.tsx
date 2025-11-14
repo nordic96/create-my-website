@@ -1,6 +1,7 @@
 import IntroSection from "./components/IntroSection";
+import withSuspense from "./hooks/withSuspense";
 
-export default function Home() {
+function Home() {
   return (
     <div className="flex grow flex-row gap-8">
       <div className="flex grow">
@@ -10,3 +11,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default withSuspense(Home, <p>Loading...</p>);
