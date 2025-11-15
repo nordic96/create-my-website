@@ -2,6 +2,10 @@
   "name": "create-next-website",
   "version": "1.0.0",
   "description": "A template to bootstrap a personal portfolio using Next.js, React, and TypeScript.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nordic96/create-my-website.git"
+  },
   "bin": {
     "create-next-website": "./cli.js"
   },
