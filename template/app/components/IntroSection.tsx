@@ -21,7 +21,7 @@ const IntroSection = () => {
       </div>
       <div>
         <a
-          href="https://dropbox.com"
+          href=""
           target="_blank"
           className={"bg-red-600 px-4 py-3 text-white rounded-md hover:bg-red-700"}
         >
