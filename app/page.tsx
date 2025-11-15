@@ -1,5 +1,8 @@
 import IntroSection from "./components/IntroSection";
-import withSuspense from "./hooks/withSuspense";
+import ProjectSection from "./components/ProjectSection";
+import PublicationSection from "./components/PublicationSection";
+import SkillsSection from "./components/SkillsSection";
+import withSuspense from "./functions/withSuspense";
 
 function Home() {
   return (
@@ -7,7 +10,11 @@ function Home() {
       <div className="flex grow">
         <IntroSection />
       </div>
-      <div className="flex grow">Page Content</div>
+      <div className="flex grow flex-col gap-1 w-[550px]">
+        <SkillsSection />
+        <PublicationSection />
+        <ProjectSection />
+      </div>
     </div>
   );
 }

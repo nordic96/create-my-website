@@ -18,6 +18,9 @@ export const labelData: Labels = {
         "Below are my personal projects in various fields [Replace with your own description]",
       banner_text:
         "This is some placeholder banner text, you can replace with any text messsage you wish to display for as banner text",
+      header_skills: "Tech Stacks",
+      header_desc_skills:
+        "Tech Stacks and Skills that I possess [feel free to edit with your own design and description!]",
     },
   },
 };
