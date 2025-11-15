@@ -1,4 +1,10 @@
 # create-next-website
+
+## Install
+```bash
+npx create-next-website
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-website`](https://github.com/nordic96/create-my-website). The template is built on top with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ### Features
