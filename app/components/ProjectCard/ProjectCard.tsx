@@ -2,11 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Divider from "../Divider";
-
-export interface Source {
-  icon_url: string;
-  source_url: string;
-}
+import { Source } from "@/app/types/source";
 
 export interface Project {
   id: string;
@@ -29,19 +25,18 @@ function ProjectCard(props: ProjectCardProps) {
     <div className="flex rounded-lg py-8 px-4 shadow-xl justify-between">
       <div className="flex flex-col gap-1 max-w-70">
         <label className="text-xl font-semibold">{`[${year}] ${name}`}</label>
-        <div className="flex gap-1 items-center flex-wrap">
-          {keywords.map((keyword, id) => (
-            <p className="text-sm" key={id}>{`#${keyword}`}</p>
-          ))}
-        </div>
         <Divider />
-        <div className="transition-all duration-500 ease-in-out">
+        <div className="flex gap-1 items-center flex-wrap">
           {sources.map((source, id) => (
             <a key={id} href={source.source_url} target={"_blank"}>
               <Image src={source.icon_url} width={25} height={25} alt={"source_logo"} />
             </a>
           ))}
+          {keywords.map((keyword, id) => (
+            <p className="text-sm" key={id}>{`#${keyword}`}</p>
+          ))}
         </div>
+        <div className="transition-all duration-500 ease-in-out"></div>
       </div>
       <div
         className="max-w-60 cursor-pointer"
