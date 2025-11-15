@@ -1,9 +1,9 @@
 {
-  "name": "create-my-website",
+  "name": "create-next-website",
   "version": "1.0.0",
   "description": "A template to bootstrap a personal portfolio using Next.js, React, and TypeScript.",
   "bin": {
-    "create-my-website": "./cli.js"
+    "create-next-website": "./cli.js"
   },
   "files": [
     "template",
