@@ -2,15 +2,21 @@ import { Certificate } from "../components/Certificate/Certificate";
 
 export const certsData: Certificate[] = [
   {
-    url: "https://www.redhat.com/en/services/certification/rhcsa",
+    url: "",
     name: "[Replace with your own certificates]",
     year_earned: "[year_obtained]",
-    icon_url: "/brands/Red_Hat_logo.svg",
+    icon_url: "/file.svg",
   },
   {
-    url: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+    url: "",
     name: "[Replace with your own certificates]",
     year_earned: "[year_obtained]",
-    icon_url: "/brands/aws_logo.svg",
+    icon_url: "/file.svg",
+  },
+  {
+    url: "",
+    name: "[Replace with your own certificates]",
+    year_earned: "[year_obtained]",
+    icon_url: "/file.svg",
   },
 ];

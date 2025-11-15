@@ -1,4 +1,4 @@
-export type ProfileType = "gmail" | "github" | "leetcode" | "linkedin";
+export type ProfileType = "mail" | "github" | "leetcode" | "linkedin";
 
 export interface Profile {
   url: string;
@@ -8,9 +8,9 @@ export interface Profile {
 
 export const profileData: Profile[] = [
   {
-    url: "https://mail.google.com",
-    icon_url: "/brands/gmail.svg",
-    type: "gmail",
+    url: "",
+    icon_url: "/window.svg",
+    type: "mail",
   },
   {
     url: "https://github.com",
